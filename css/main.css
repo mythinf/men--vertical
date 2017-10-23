@@ -1,5 +1,4 @@
 body{
-  background: orange;
   padding: 10px;
 }
 
@@ -13,7 +12,7 @@ height: 520px;
 h1{
   font-family: 'Michroma', sans-serif;
   font-size: 50px;
-  color: white;
+  color: orange;
   padding: 10px;
 }
 
@@ -39,15 +38,25 @@ a{
   color: white;
   padding-left: 10px;
 }
-
-ul li:first-child{
-  background: #696969	;
+ul li:first-child a{
+  background: #fff	;
+  color: orange;
 }
 
-ul li:first-child a{
+ul li:first-child a:hover{
   color: #000000	;
 }
 
+ul li:first-child a:active{
+  color: #fff	;
+}
+
  a:hover{
-   background: orange;
+   background:yellow ;
+   color: #000000	;
+ }
+
+ a:active{
+   background:#FF8C00 ;
+   color: white;
  }
