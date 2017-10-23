@@ -1,0 +1,40 @@
+
+h1{
+  font-family: 'Michroma', sans-serif;
+  color: orange;
+}
+
+ul {
+  font-family: 'Michroma', sans-serif;
+  outline: 1px solid yellow;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 40px;
+}
+
+li{
+  outline: 1px solid orange;
+  background:#000000;
+}
+
+a{
+/* outline: 1px solid red; */
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+
+ul li:first-child{
+  background: #696969	;
+}
+
+ul li:first-child a{
+  color: #000000	;
+}
+
+ a:hover{
+   background: orange;
+ }
